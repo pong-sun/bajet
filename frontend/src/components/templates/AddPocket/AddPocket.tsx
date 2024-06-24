@@ -5,7 +5,8 @@ import Button from "src/components/molecules/Button/Button";
 import Calendar from "src/components/molecules/Calendar/Calendar";
 import getOrdinalNumber from 'src/utils/getOrdinalNumber';
 import getMonthWord from "src/utils/getMonthWord";
-import { MainContext, MainContextType } from "src/context/MainContext";
+import { MainContext } from "src/context/MainContext";
+import { MainContextType } from "src/context/MainContextType";
 import style from "src/utils/styles";
 import { pocketAPI } from "src/api/useAPI";
 

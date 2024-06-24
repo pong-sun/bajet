@@ -1,6 +1,7 @@
 import React, { useContext, useState } from "react";
 import DropDownIcon from 'src/assets/images/down-light.png'
-import { MainContext, MainContextType } from "src/context/MainContext";
+import { MainContext } from "src/context/MainContext";
+import { MainContextType } from "src/context/MainContextType";
 
 type OptionType = {
   options: {

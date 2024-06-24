@@ -16,7 +16,8 @@ import useScrollOnTop from "src/hooks/useScrollOnTop";
 import Cookies from "js-cookie";
 import resetOnTop from "src/utils/resetOnTop";
 import style from "src/utils/styles";
-import { MainContext, MainContextType } from "src/context/MainContext";
+import { MainContext } from "src/context/MainContext";
+import { MainContextType } from "src/context/MainContextType";
 import getTransactionTypeStyle from "src/utils/getTransactionTypeStyle";
 import { useNavigate } from "react-router-dom";
 

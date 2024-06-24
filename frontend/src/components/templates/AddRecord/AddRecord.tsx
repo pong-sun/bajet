@@ -9,7 +9,8 @@ import WalletIncome from 'src/assets/images/income.png'
 import PocketIcon from 'src/assets/images/pocket.png'
 import UnpaidAmount from 'src/assets/images/unpaid-amount.png'
 import AddPocket from 'src/assets/images/add-pocket.png'
-import { MainContext, MainContextType } from "src/context/MainContext";
+import { MainContext } from "src/context/MainContext";
+import { MainContextType } from "src/context/MainContextType";
 import OptionCard from "src/components/organisms/OptionCard/OptionCard";
 import style from "src/utils/styles";
 import AccountDropDown from "src/components/organisms/AccountDropDown/AccountDropDown";

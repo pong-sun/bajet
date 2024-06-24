@@ -6,7 +6,8 @@ import Button from "src/components/molecules/Button/Button";
 import formatNumber from "src/utils/formatNumber";
 import Moment from 'react-moment';
 import EditWallet from "../EditWallet/EditWallet";
-import { MainContext, MainContextType } from "src/context/MainContext";
+import { MainContext } from "src/context/MainContext";
+import { MainContextType } from "src/context/MainContextType";
 import getTransactionTypeStyle from "src/utils/getTransactionTypeStyle";
 import upperCaseFirstLetter from "src/utils/upperCaseFirstLetter";
 

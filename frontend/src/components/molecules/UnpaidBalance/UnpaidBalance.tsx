@@ -4,7 +4,8 @@ import DropDownIcon from 'src/assets/images/down-light.png'
 import WalletIcon from 'src/assets/images/wallet.png'
 import Button from "../Button/Button";
 import formatNumber from 'src/utils/formatNumber';
-import { MainContext, MainContextType } from "src/context/MainContext";
+import { MainContext } from "src/context/MainContext";
+import { MainContextType } from "src/context/MainContextType";
 import { pocketAPI, walletAPI } from "src/api/useAPI";
 
 type UnpaidBalanceType = {

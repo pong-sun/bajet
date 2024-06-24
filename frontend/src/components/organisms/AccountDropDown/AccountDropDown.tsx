@@ -3,7 +3,8 @@ import formatNumber from "src/utils/formatNumber";
 import WalletIcon from 'src/assets/images/wallet.png'
 import DropDownIcon from 'src/assets/images/down-light.png'
 import PocketIcon from 'src/assets/images/pocket.png'
-import { MainContext, MainContextType } from "src/context/MainContext";
+import { MainContext } from "src/context/MainContext";
+import { MainContextType } from "src/context/MainContextType";
 import upperCaseFirstLetter from "src/utils/upperCaseFirstLetter";
 
 function AccountDropDown({ setActive = 0, accountData, className = "", accountType, text = "", selected = () => { } }: any) {

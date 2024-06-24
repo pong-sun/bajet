@@ -2,7 +2,8 @@ import React, { useContext, useEffect, useState } from "react";
 import Card from "src/components/organisms/CardModal/CardModal";
 import DropDownIcon from 'src/assets/images/down-light.png'
 import Button from "src/components/molecules/Button/Button";
-import { MainContext, MainContextType } from "src/context/MainContext";
+import { MainContext } from "src/context/MainContext";
+import { MainContextType } from "src/context/MainContextType";
 import { walletAPI } from "src/api/useAPI";
 import { WalletDataType } from "../AddWallet/AddWallet";
 import style from "src/utils/styles";
